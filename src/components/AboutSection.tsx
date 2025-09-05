@@ -54,15 +54,15 @@ const AboutSection = () => {
             </div>
           </div>
 
-          {/* Image placeholder - could be replaced with actual photo */}
+          {/* Kitchen plumbing work image */}
           <div className="lg:order-first">
             <Card className="p-8 bg-subtle-gradient shadow-elevated">
-              <div className="aspect-square bg-muted rounded-lg flex items-center justify-center">
-                <div className="text-center text-muted-foreground">
-                  <Wrench className="h-16 w-16 mx-auto mb-4 text-primary opacity-50" />
-                  <p className="text-sm">Professional Plumbing Services</p>
-                  <p className="text-xs mt-2">Serving Oregon Communities</p>
-                </div>
+              <div className="aspect-square rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/fc8c97a5-7dc4-4737-a12f-54fa41d3cd34.png" 
+                  alt="Professional kitchen plumbing installation by GM Plumbing LLC featuring beautiful wood countertops and white cabinetry"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </Card>
           </div>
